@@ -41,7 +41,7 @@ define([
 		configureAsFrame(sxModule, 'self::learningAssessment and ancestor::*[fonto:dita-class(., "topic/topic")]', undefined, {
 			defaultTextContainer: 'learningAssessmentbody',
 			blockFooter: [
-				createRelatedNodesQueryWidget('./related-links]')
+				createRelatedNodesQueryWidget('./related-links')
 			],
 			blockHeaderLeft: [
 				createMarkupLabelWidget()
